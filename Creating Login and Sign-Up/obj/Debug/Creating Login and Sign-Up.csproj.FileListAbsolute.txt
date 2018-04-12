@@ -1,0 +1,24 @@
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.dll.config
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.dll
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.pdb
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.dll
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.SqlServer.dll
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\System.Web.Providers.dll
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.xml
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.SqlServer.xml
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\System.Web.Providers.xml
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.dll
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.pdb
+G:\Home Practice\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.csprojResolveAssemblyReference.cache
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.dll.config
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.dll
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\Creating Login and Sign-Up.pdb
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.dll
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.SqlServer.dll
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\System.Web.Providers.dll
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.xml
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\EntityFramework.SqlServer.xml
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\bin\System.Web.Providers.xml
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.csprojResolveAssemblyReference.cache
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.dll
+E:\Practice\Collection\Creating Login and Sign-Up\Creating Login and Sign-Up\obj\Debug\Creating Login and Sign-Up.pdb

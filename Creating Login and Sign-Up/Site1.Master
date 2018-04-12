@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Creating_Login_and_Sign_Up.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 470px;
+        }
+
+        table {
+        }
+
+        .auto-style2 {
+            width: 704px;
+        }
+
+        #bannerSection {
+            height: 114px;
+        }
+
+
+        footer {
+            height: 49px;
+            background-color: #34495e;
+        }
+
+        #p p {
+            margin-top: 0px;
+            text-align: center;
+            padding: 5px 10px;
+            color: #fff;
+            font-style: italic;
+        }
+
+        .auto-style3 {
+            width: 120px;
+            height: 308px;
+            margin-left: 5px;
+        }
+        hgroup h2{
+            margin-bottom:0px;
+            color: #3449FF;
+        }
+        hgroup h3{
+            margin-top: 0;
+            font-style: italic;
+            color: #3449FF;
+            font-size: 10.5pt;
+        }
+    </style>
+</head>
+<body style="height: 663px; width: 844px; margin: 0 auto">
+    <form id="form1" runat="server">
+        <div id="bannerSection" style="background-color: #34495e">
+            <div class="logo" style="float:left;width:16%">
+                <img src="Images/PleaseWait.gif" style="width: 85px" />
+            </div>
+            <hgroup style="float:right;width:80%; margin-left: 29px;">
+                <h2>Imaginnig</h2>
+                <h3>Best Suit to Stay connect</h3>
+            </hgroup>
+                    <div id="navigationControl">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+            </asp:SiteMapPath>
+        </div>
+        </div>
+
+        <div id="contentSection" style="background-color: #bdc3c7;">
+            <table class="auto-style1">
+                <tr style="vertical-align: top">
+                    
+                    <td style="background-color: #6687BC">
+                        <div style="width: 119px">
+                            <asp:Menu ID="Menu1" runat="server">
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Registration.aspx" Text="Registration" Value="Registration"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" Value="About"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                              <asp:LoginStatus ID="LoginStatus3" runat="server" />
+
+                        </div>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <footer>
+            <div>
+                <div style="float: left; width: 30%">
+                    <asp:LoginName runat="server" ForeColor="#99ffcc" FormatString="You logged In As  {0}"></asp:LoginName>
+                    <asp:LoginView runat="server">
+                        <LoggedInTemplate>
+                            <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+                <div id="p" style="float: right; width: 65%">
+                    <p style="height: 46px"> <%: DateTime.Now   %>&nbsp Copyright&copy;Login Authentication</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
